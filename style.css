@@ -1,0 +1,319 @@
+body{
+    display: flex;
+    border: 4px solid white;
+    background-color: #1a1818;
+}
+#grid1{
+    width: 100%;
+    height: 7%;
+    background-color: #1a1818;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+   border-bottom: 0.5px solid white;
+   padding: 2%;
+}
+#grid2{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 25%;
+    position: absolute;
+    top: 10.9%;
+    left: 0%;
+    /* border: solid rgb(121, 117, 117); */
+    padding: 0.5%;
+}
+#grid3{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 41.8%;
+    left: 0%;
+    /* background-color: aqua; */
+    /* border: solid rgb(179, 173, 173); */
+}
+#grid4{
+    width: 100%;
+    height: 12%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    /* background-color: aqua; */
+    /* border: solid rgb(182, 175, 175); */
+}
+#grid5{
+    width: 100%;
+    height: 3%;
+    position: absolute;
+    top: 58%;
+    left: 0%;
+    /* background-color: aqua; */
+    /* border: solid rgb(143, 133, 133); */
+}
+#grid6{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    /* background-color: aqua; */
+    border: 0.5px solid rgb(145, 130, 130);
+    border-radius: 5px;
+}
+#grid7{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 78%;
+    left: 5%;
+    /* background-color: aqua; */
+    border: 0.5px solid rgb(145, 130, 130);
+    border-radius: 5px;
+}
+#grid8{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 91%;
+    left: 5%;
+    /* background-color: aqua; */
+    border: 0.5px solid rgb(145, 130, 130);
+    border-radius: 5px;
+}
+
+#grid9{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 104%;
+    left: 5%;
+    /* background-color: aqua; */
+    border: 0.5px solid rgb(145, 130, 130);
+    border-radius: 5px;
+}
+#grid10{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 117%;
+    left: 5%;
+    /* background-color: aqua; */
+    border: 0.5px solid rgb(145, 130, 130);
+    border-radius: 5px;
+}
+#grid11{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 130%;
+    left: 5%;
+    /* background-color: aqua; */
+    border: 0.5px solid rgb(145, 130, 130);
+    border-radius: 5px;
+}
+#grid12{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 143%;
+    left: 5%;
+    /* background-color: aqua; */
+    border: 0.5px solid rgb(145, 130, 130);
+    border-radius: 5px;
+}
+
+#grid13{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 154%;
+    left: 5%;
+    /* border: pink solid; */
+}
+#grid14{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 170%;
+    left: 0%;
+    /* border: white solid; */
+}
+#grid15{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 200% ;
+    left: 5%;
+    /* border: 2px solid white ; */
+}
+#grid16{
+    /* background-color: red; */
+    width: 100%;
+    height: 7%;
+    position: absolute;
+    top: 223%;
+}
+#text1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    position: relative;
+    left: 10%;
+}
+#text2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    /* position: relative; */
+}
+#text3{
+    color: rgb(20, 214, 124);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: -1em;
+}
+#text4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: -30%;
+    margin: 10%;
+    font-size: 1em;
+}
+#button1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(68, 219, 68);
+    position: absolute;
+    top: 0%;
+    left: 18%;
+    border-radius: 0.5em;
+    padding: 0.2%;
+}
+#button1text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+}
+#button2{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(56, 53, 53);
+    position: absolute;
+    top: 0%;
+    right: 18%;
+    border-radius: 0.5em;
+    padding: 0.2%;
+}
+#button2text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+}
+#text5{
+    color:gray;
+    position: relative;
+    top: -1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.headerin{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    position: relative;
+    left: 15%;
+    top: -5%;
+}
+.paragraphin{
+    color: gray;
+    position: relative;
+    top: -20%;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+.boldin{
+    color: white;
+}
+#text6{
+    margin-right: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    font-size: 1.13em;
+}
+#text7{
+    color: white;
+}
+#text8{
+    text-align: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+#text9{
+    color: white;
+    position: relative;
+    top: 0%;
+}
+#text10{
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#text11{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+#text12{
+    color: white;
+    font-weight: lighter;
+}
+#text13{
+    color: rgb(88, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+#but1{
+    background-color: rgb(61, 199, 61);
+    width: 30%;
+    height: 55%;
+    position: relative;
+    top: -30%;
+    border-radius: 5px;
+}
+#but2{
+    background-color: rgb(36, 34, 34);
+    width: 30%;
+    height: 55%;
+    position: relative;
+    top: -140%;
+    left: 32%;
+    border-radius: 5px;
+}
+#but1text{
+    text-align: center;
+    font-size: 0.9em;
+    position: relative;
+    top: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   color: white;
+}
+#but2text{
+    text-align: center;
+    font-size: 0.9em;
+    position: relative;
+    top: 19%;
+    font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   color: white;
+}
