@@ -3,11 +3,12 @@ body{
     display: grid;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: rgb(43, 42, 42);
 }
 .box{
-    background-color:gray;
+    /* background-color:gray; */
 }
-.boxdiv{
+/* .boxdiv{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -18,7 +19,7 @@ body{
     padding-top: 5%;
 
 
-}
+} */
 .headerin{
     margin-left: 5%;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,26 +29,33 @@ body{
 .paragraphin{
     margin-left: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: gray;
     margin-top: -3%;
-    font-size: 0.8em;
-}
-.spandiv{
+    font-size: 0.8em; 
+ } 
+ .boldin{
+    color:white;
+    font-weight: 600;
+ }
+/* .spandiv{
     margin-bottom: 7%;
-}
+}  */
 #grid1{
     position: fixed;
     width: 100%;
     height: 7%;
     border-bottom: 0.5px solid white;
-    background-color: rgb(70, 68, 68);
-    display: flex;
-    margin-right: 5%;
+    background-color: rgb(34, 33, 33);
+    /* display: flex; */
+    margin-right: 0%;
+    margin-left: -7%;
+    margin-top: -2%;
+    opacity: 0.99;
 } 
 #grid2{
    width: 100%;
    display: flex;
-   margin-top: 18%;
+   margin-top: 12%;
 }
 #grid3{
     display: flex;
@@ -60,28 +68,80 @@ body{
     margin-top: 3.5em;
 }
 #grid6{
-    margin-top: 10%;
+   margin-top: 20%;
+   display: flex;
+   border-radius: 8px;
+   background-color: rgb(43, 42, 42);
+   border: 0.5px solid white;
 }
 #grid7{
-    margin-top: -1%;
+    background-color: gray;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: rgb(43, 42, 42);
+   border: 0.5px solid white;
 }
 #grid8{
-    margin-top: -8%;
+    background-color: gray;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: rgb(43, 42, 42);
+   border: 0.5px solid white;
 }
 #grid9{
-    margin-top: -12%;
+    background-color: gray;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: rgb(43, 42, 42);
+   border: 0.5px solid white;
 }
 #grid10{
-    margin-top: -15%;
+    background-color: gray;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: rgb(43, 42, 42);
+   border: 0.5px solid white;
 }
 #grid11{
-    margin-top: -16%;
+    background-color: gray;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: rgb(43, 42, 42);
+   border: 0.5px solid white;
 }
 #grid12{
-    margin-top: -17%;
+    background-color: gray;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: rgb(43, 42, 42);
+   border: 0.5px solid white;
 }
+#grid14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    
+}
+#grid16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+}
+
 #text1{
     color: white;
+    margin-left: 5%;
+    font-size: 1.6em;
+    margin-top: -1%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 #text2{
@@ -105,9 +165,43 @@ body{
 }
 #text5{
     text-align: center;
-    color: white;
+    color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
+}
+#text6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin-right: 20%;
+    color: gray;
+}
+#text7{
+    color: white;
+}
+#text8{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#text9{
+    color: white;
+    margin-left: 7%;
+}
+#text10{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+#text11{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 1.4em;
+}
+#text12{
+    color: white;
+}
+#text13{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 1.1em;
 }
 #button1text{
     color: white;
@@ -131,7 +225,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: green;
-    height: 1.8em;
+    height: 1.9em;
     margin-left: 20%;
     width: 9em;
     border-radius: 5px;
@@ -141,9 +235,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(105, 128, 0);
-    height: 1.8em;
+    background-color: rgb(67, 68, 64);
+    height: 1.9em;
     width: 9em;
     margin-left: 15%;
     border-radius: 5px;
+}
+#but1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 1.9em;
+    margin-left: -25%;
+    width: 9em;
+    border-radius: 8px;
+}
+#but2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 68, 64);
+    height: 1.9em;
+    width: 9em;
+    margin-left: -20%;
+    border-radius: 5px;
+}
+#but1text{
+    color: white;
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#but2text{
+    color: white;
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
 }
