@@ -205,6 +205,60 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    height: 1.8em;
+    /* background-color: red; */
+    margin-top: 4%;
+}
+#grid27{
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    /* background-color: red; */
+    width: 100%;
+    height: 20em;
+    margin-top: 10%;
+}
+#grid28{
+    display: flex;
+    gap: 15px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 0%;
+    /* margin-left: %; */
+    /* height: 2em; */
+}
+#buttt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 2.4em;
+    margin-left: 20%;
+    width: 9em;
+    border-radius: 5px;
+    margin-left: 4%;
+    border: 0.5px solid white;
+
+}
+#buttt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    height: 2.4em;
+    /* margin-left: 20%; */
+    width: 9em;
+    border-radius: 5px;
+    border: 0.5px solid white;
+
+}
+.commdivs{
+    flex-shrink: 0;
+    border: 0.5px solid white;
+    width: 75%;
+    border-radius: 7px;
 }
 .flexebutts{
     display: flex;
@@ -217,9 +271,17 @@ body{
     
 }
 .indiv{
-   border: 0.5px solid white ;
-   height: 2em;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid white;
+    height: 100%;
+    width: 30%;
+    border-radius: 8px;
+    
+}
+#indiv1{
+    width: 60%;
 }
 .textin{
     color: white;
@@ -284,6 +346,7 @@ body{
 #text10{
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
+    margin-top: 10%;
 }
 #text11{
     font-family: Arial, Helvetica, sans-serif;
@@ -337,7 +400,27 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
-    margin-top: -33%;
+    margin-top: -3%
+}
+#text20{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 1.65em;
+    margin-top: 50%;
+}
+#text21{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.65em;
+    margin-top: -12%;
+
+}
+.indivtext{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 #boldin2{
     color: white;
@@ -535,4 +618,9 @@ body{
     border: 0.5px solid white;
     border-radius: 8px;
     margin-top: 0%;
+}
+.butttex{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
 }
