@@ -229,6 +229,21 @@ body{
     /* margin-left: %; */
     /* height: 2em; */
 }
+#grid29{
+    display: flex;
+    /* border: 1px solid white; */
+    gap: 50px;
+    border-bottom: 0.5px solid white;
+    
+}
+/* .flex29{
+    border: 1px solid white; */
+  
+/* } */
+#grid31{
+    display: flex;
+    gap: 100px;
+}
 #buttt1{
     display: flex;
     justify-content: center;
@@ -416,6 +431,38 @@ body{
     font-size: 1.65em;
     margin-top: -12%;
 
+}
+#text22{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tb1text{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tbheaders{
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tbheaders2{
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+
+.flex29text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+#flex29tg{
+    color: green;
+    margin-top: -15%;
+}
+#flex29tg2{
+    margin-top: -23%;
 }
 .indivtext{
     color: white;
