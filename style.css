@@ -19,7 +19,7 @@ body{
 
 } */
 .headerin{
-    margin-left: 5%;
+    margin-left: 1%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     
@@ -67,7 +67,14 @@ body{
     gap: 1em;
 }
 #grid4{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
     margin-top: 3.5em;
+    background-color: red;
+    height: 2em;
+    gap: 10px;
+
 }
 #grid6{
    margin-top: 20%;
@@ -310,7 +317,7 @@ body{
 }
 #text1{
     color: white;
-    margin-left: 5%;
+    margin-left: 1%;
     font-size: 1.6em;
     margin-top: 0%;
     font-family: Arial, Helvetica, sans-serif;
@@ -670,4 +677,32 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.85em;
+}
+.svgs{
+    
+    height: 1.5em;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.svgflex{
+    display: flex;
+    
+}
+.supabaseicon{
+    height: 2.6em;
+    margin-left: 5%;
+}
+.svgslog{
+    display: flex;
+    flex-shrink: 0;
+    border: 2px solid white;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.svgslogtext{
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
 }
