@@ -69,12 +69,12 @@ body{
 #grid4{
     display: flex;
     overflow-x: auto;
+    overflow-y: hidden;
     white-space: nowrap;
-    margin-top: 3.5em;
-    background-color: red;
-    height: 2em;
-    gap: 10px;
-
+    width: 100%;
+    height: 1.7em;
+    margin-top: 10%;
+    /* background-color: red; */
 }
 #grid6{
    margin-top: 20%;
@@ -697,12 +697,71 @@ body{
     flex-shrink: 0;
     border: 2px solid white;
     width: 40%;
+    padding: 5px 6px;
     justify-content: center;
     align-items: center;
     
 }
 .svgslogtext{
-    color: rgba(255, 255, 255, 0.644);
+    color: rgba(255, 255, 255, 0.63);
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
+}
+.logs{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    flex-shrink: 0;
+    /* border: 0.5px solid white; */
+    width: 40%;
+    div{
+        display: flex;
+        align-items: center;
+        
+    }
+}
+.logstext{
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.664);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0%;
+    opacity: 0.4;
+
+    
+}
+.logsimg{
+    height: 1.5em;
+  width: 2em;
+    opacity: 0.4;
+}
+#moz{
+    margin-left: 5%;
+    width: 30%;
+}
+#pw{
+    margin-left: 6%;
+    width: 25%;
+}
+#pik{
+    width: 20%;
+}
+#hum{
+    width: 35%;
+}
+#kre{
+    width: 32%;
+}
+#udi{
+    width: 20%;
+}
+#rs{
+    margin-left: 5%;
+    width: 30%;
+}
+#lops{
+    width: 35%;
+}
+#moob{
+    width: 27%;
 }
