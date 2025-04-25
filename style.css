@@ -600,10 +600,43 @@ body{
 }
 #maergo{
     display: grid;
+    gap: 4.9em;
     border: 0.5px solid white;
-    width: 100%;
+    width: 98%;
     flex-shrink: 0;
     border-radius: 8px;
+    div{
+        display: flex;
+        overflow: auto;
+        align-items: center;
+        width: 100%;
+        /* border: 0.5px solid white; */
+        height: 2.5em;
+        img{
+            height: 2.5em;
+            width: 3em;
+            opacity: 0.4;
+        }
+        h1{color: #ffffffa9;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.7em;
+            opacity: 0.4;
+            
+        }
+        p{
+            color: #ffffffa9;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 4%;
+            font-size: 1em;
+            opacity: 0.4;
+            margin-bottom: 6%;
+        }
+        padding-top: 3%;
+    }
+
+    #para{
+        height: 6em;
+    }
 
 }
 #flexgrid3{
@@ -673,11 +706,51 @@ body{
 #password{
     border: 0.5px solid white;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    justify-content: center;
+    div{
+        display: flex;
+        border: 0.5px solid white;
+        align-items: center;
+    }
+    h1{
+        color: #ffffffa9;
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.4;
+    }
+    img{
+        height: 2.1em;
+        width: 3em;
+        opacity: 0.4;
+    }
 }
 #nextdoor{
     border: 0.5px solid white;
     margin-top: 5%;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: #ffffffa9;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        opacity: 0.4;
+    }
+    h2{
+        color: #ffffffa9;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -13%;
+        font-size: 0.7em;
+        letter-spacing: 0.55em;
+        opacity: 0.4;
+    }
+    
 }
 #shotgun{
     border: 0.5px solid white;
