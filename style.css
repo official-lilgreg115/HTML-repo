@@ -64,6 +64,9 @@ body{
     .hide{
         display: none;
     }
+    span{
+        display: none;
+    }
 } 
 #grid2{
    width: 100%;
@@ -97,6 +100,12 @@ body{
    border-radius: 8px;
    background-color: rgb(43, 42, 42);
    border: 0.5px solid rgb(66, 65, 65);
+   #side2{
+    display: none;
+   }
+   #elephant{
+    display: none;
+   }
 }
 #grid7{
     background-color: gray;
@@ -1177,6 +1186,10 @@ body{
    gap: -4%;
 }
 @media  screen and (min-width : 1024px) {
+    body{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
     #grid1{
         display: flex;
         align-items: center;
@@ -1186,6 +1199,7 @@ body{
         height: 9%;
         margin-top: -1%;
         padding-right: 0%;
+        margin-left: -15%;
         
         /* border: 2px solid white; */
         
@@ -1211,6 +1225,7 @@ body{
             margin-right: 5%;
         }
         span{
+            display: block;
             color: #ffffffa9;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 0.7em;
@@ -1231,13 +1246,14 @@ body{
             }
         }
         #whd{
-            border: 0.5px solid white ;
+            border: 0.5px solid rgb(66, 65, 65) ;
             width: 7.5%;
         }
         #grd{
             width: 17%;
             margin-left: -1.1%;
             margin-right: -2%;
+            border: 0.5px solid rgb(66, 65, 65) ;
             background-color: rgb(28, 107, 28);
             margin-right: 10%;
             
@@ -1328,6 +1344,7 @@ body{
             width: fit-content;
             
         }
+        scrollbar-width: none;
     }
     #grid5{
         margin-top: 6%;
@@ -1347,12 +1364,12 @@ body{
                 display: grid;
                 /* border: 0.5px solid white;  */
                 height: fit-content;
-                span{
+                span{ display: flex;
                     color: white;
                     font-family: Arial, Helvetica, sans-serif;
                     font-size: 0.9em;
                     line-height: 130%;
-                    img{
+                    img{ display: block;
                         height: 1.2em;
                         align-self: center;
                     }
@@ -1384,17 +1401,50 @@ body{
         /* border: 0.5px solid white; */
         display: flex;
         align-items: center;
-        /* justify-content: center; */
-        overflow: hidden;
+        justify-content: space-between;
+        /* overflow: hidden; */
         gap: 1.1em;
         width: 100%;
         height: 25em;
         margin-top: 2%;
         .boxdiv{
             height: 23em;
-            width: 27.5em;
+            width: 31.8em;
+            flex-shrink: 1;
         }
         
 
+    }
+    #text6{
+        font-size: 1.5em;
+    }
+    #grid14{
+        margin-top: 13%;
+        h3{
+            font-size: 2em;
+        }
+    }
+    #frames{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        div{
+            img{
+                height: 2em;
+                opacity: 0.9;
+            }
+        }
+        
+    }
+    #grid15{
+        margin-top: 15%;
+        /* border: 0.5px solid white; */
+        #text11{
+            font-size: 2em;
+        }
+        #text13{
+            font-size: 1.3em;
+        }
     }
 }
