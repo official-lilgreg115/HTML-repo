@@ -1405,23 +1405,32 @@ body{
         
     }
     .authedge{
-        /* border: 0.5px solid white; */
+        border: 0.5px solid white;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        overflow: hidden;
-        gap: 1.1em;
+        justify-content: center ;
+        overflow:hidden;
+        gap: 8em;
         width: 90%;
         height: 25em;
         margin-top: 2%;
         .boxdiv{
-            display: flex;
+            /* display: grid; */
             height: 23em;
-            width: 20.em;
-            flex-shrink: 1;
+            width: 10em ;
+            flex-grow: 1;
+            flex-basis: 0;
+        
+        }
+        #grid7{
+            width: 105%;
         }
         margin-left: 5%;
-
+        #grid8{
+            width: 99%;
+            margin-left: 2%;
+           
+        }
     }
     #text6{
         font-size: 1.5em;
@@ -1457,7 +1466,7 @@ body{
     }
     #grid16{
         justify-content: flex-start;
-        padding-left: 4%;
+        padding-left: 3%;
     }
     #grid17{
         margin-left: -17%;
@@ -1638,7 +1647,14 @@ body{
         border-bottom: none;
     }
     #grid30{
-        border: 0.5px solid white;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        img{
+            height: 1.2em;
+            width: 1.2em;
+        }
+        /* border: 0.5px solid white; */
         height: 2em;
         margin-bottom: 5%;
     }
@@ -1681,6 +1697,18 @@ body{
             font-family: Arial, Helvetica, sans-serif;
             opacity: 0.6;
             font-size: 0.7em;
+        }
+    }
+    #logfoot{
+        display: flex;
+        width: fit-content;
+        gap: 0.4em;
+        align-items: center;
+        /* border: 0.5px solid white; */
+        img{
+            height: 2em;
+            width: 1.5em;
+
         }
     }
 }
